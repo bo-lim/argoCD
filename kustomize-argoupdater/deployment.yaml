@@ -13,7 +13,7 @@ spec:
         app: sample
     spec:
       containers:
-      - image: leebolim0701471/argoupdater:1.0
+      - image: docker.io/leebolim0701471/argoupdater:1.0
         name: sample
         ports:
         - containerPort: 80
